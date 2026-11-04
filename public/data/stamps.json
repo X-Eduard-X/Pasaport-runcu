@@ -1,0 +1,318 @@
+{
+  "updatedAt": "2026-11-04T07:58:08.403Z",
+  "total": 12,
+  "stamps": [
+    {
+      "id": "a-chei-rau",
+      "category": "A",
+      "title": "Rezervația Naturală Cheile Sohodolului",
+      "shortDescription": "Săpate de apele limpezi ale râului Sohodol în calcarele cretacice ale Munților Vâlcan, Cheile Sohodolului alcătuiesc unul dintre cele mai spectaculoase defilee carstice din Oltenia.",
+      "coordinates": [
+        23.1365,
+        45.1625
+      ],
+      "photo": "photos/a-chei-rau-1-840.webp",
+      "photoMeta": {
+        "src": "photos/a-chei-rau-1-840.webp",
+        "srcsetWebp": "photos/a-chei-rau-1-480.webp 480w, photos/a-chei-rau-1-840.webp 840w",
+        "srcsetAvif": "photos/a-chei-rau-1-480.avif 480w, photos/a-chei-rau-1-840.avif 840w",
+        "width": 840,
+        "height": 471,
+        "color": "rgb(8, 8, 8)",
+        "alt": "Râul Sohodol cu apă limpede și bolovani de calcar în albie, încadrat de versanți stâncoși și pădure verde",
+        "caption": "Cursul râului Sohodol la ieșirea dintre pereții calcaroși ai cheilor.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "fc878be99183f63bf2dcadbe5509c298",
+      "code": "VXZG48",
+      "radius": 350,
+      "isPhysical": true
+    },
+    {
+      "id": "a-varful-arcanu",
+      "category": "A",
+      "title": "Vârful Arcanu (1.760 m) și Crucea Eroilor — „Drumul Crucii”",
+      "shortDescription": "Situat pe culmea principală a Munților Vâlcan la altitudinea de 1.760 m, în imediata vecinătate nord-vestică a hotarului comunei Runcu (la ~2,2 km de limita administrativă), Vârful Arcanu oferă o panoramă amplă asupra Depresiunii Subcarpatice și a crestei Carpaților Meridionali.",
+      "coordinates": [
+        23.0156987,
+        45.2454085
+      ],
+      "photo": "photos/a-varful-arcanu-1-840.webp",
+      "photoMeta": {
+        "src": "photos/a-varful-arcanu-1-840.webp",
+        "srcsetWebp": "photos/a-varful-arcanu-1-480.webp 480w, photos/a-varful-arcanu-1-840.webp 840w",
+        "srcsetAvif": "photos/a-varful-arcanu-1-480.avif 480w, photos/a-varful-arcanu-1-840.avif 840w",
+        "width": 840,
+        "height": 348,
+        "color": "rgb(40, 56, 40)",
+        "alt": "Panoramă de pe Vârful Arcanu asupra culmilor stâncoase și împădurite ale Munților Vâlcan, cu pajiște alpină în prim-plan",
+        "caption": "Culmile Munților Vâlcan văzute de pe golul alpin al Vârfului Arcanu (1.760 m).",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "a582b103efe13e21ef17b3b0d87506c3",
+      "code": "37B9PQ",
+      "radius": 250,
+      "isPhysical": true
+    },
+    {
+      "id": "a-drum-priveliste",
+      "category": "A",
+      "title": "Drumul montan DJ672C pe Valea Sohodolului",
+      "shortDescription": "Dincolo de sectorul îngust al Cheilor Sohodolului, drumul județean DJ672C își continuă urcușul domol de-a lungul văii, străbătând păduri întinse de fag și gorun.",
+      "coordinates": [
+        23.139,
+        45.212
+      ],
+      "photo": "photos/a-drum-priveliste-1-840.webp",
+      "photoMeta": {
+        "src": "photos/a-drum-priveliste-1-840.webp",
+        "srcsetWebp": "photos/a-drum-priveliste-1-480.webp 480w, photos/a-drum-priveliste-1-840.webp 840w",
+        "srcsetAvif": "photos/a-drum-priveliste-1-480.avif 480w, photos/a-drum-priveliste-1-840.avif 840w",
+        "width": 840,
+        "height": 1505,
+        "color": "rgb(168, 184, 216)",
+        "alt": "Drum asfaltat mărginit de versanți împăduriți în nuanțe de verde și galben-auriu, sub un cer albastru cu nori fini",
+        "caption": "Sector forestier al drumului de pe Valea Sohodolului, la poalele Munților Vâlcan.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "6cd871f77ccda9ea25810070bf76b71f",
+      "code": "WSPCS8",
+      "radius": 250,
+      "isPhysical": true
+    },
+    {
+      "id": "a-poteca-padure",
+      "category": "A",
+      "title": "Potecă de drumeție în făgetele Munților Vâlcan",
+      "shortDescription": "Versanții sudici ai Munților Vâlcan, care domină satele comunei Runcu, sunt brăzdați de o rețea de poteci umbrite ce urcă prin făgete seculare spre poienile înalte și plaiurile pastorale.",
+      "coordinates": [
+        23.122,
+        45.188
+      ],
+      "photo": "photos/a-poteca-padure-1-840.webp",
+      "photoMeta": {
+        "src": "photos/a-poteca-padure-1-840.webp",
+        "srcsetWebp": "photos/a-poteca-padure-1-480.webp 480w, photos/a-poteca-padure-1-840.webp 840w",
+        "srcsetAvif": "photos/a-poteca-padure-1-480.avif 480w, photos/a-poteca-padure-1-840.avif 840w",
+        "width": 840,
+        "height": 1505,
+        "color": "rgb(24, 24, 8)",
+        "alt": "Potecă de pământ acoperită cu frunze uscate care șerpuiește printr-o pădure deasă cu arbori înalți și frunziș verde",
+        "caption": "Potecă de pădure pe culmile împădurite din nordul comunei Runcu.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "4f209e79d541d2291860187074dc3aea",
+      "code": "G92ZWZ",
+      "radius": 250,
+      "isPhysical": true
+    },
+    {
+      "id": "a-interior-candelabru",
+      "category": "A",
+      "title": "Lăcaș de cult ortodox din Runcu — policandru și frescă neo-bizantină",
+      "shortDescription": "Viața spirituală a satelor din comuna Runcu gravitează în jurul bisericilor parohiale și filiale, între care Biserica „Sfânta Cuvioasă Parascheva” din Runcu (ridicată la cumpăna secolelor XIX–XX) și lăcașurile din Bâltișoara, Răchiți, Valea Mare și Dobrița.",
+      "coordinates": [
+        23.144,
+        45.121
+      ],
+      "photo": "photos/a-interior-candelabru-1-840.webp",
+      "photoMeta": {
+        "src": "photos/a-interior-candelabru-1-840.webp",
+        "srcsetWebp": "photos/a-interior-candelabru-1-480.webp 480w, photos/a-interior-candelabru-1-840.webp 840w",
+        "srcsetAvif": "photos/a-interior-candelabru-1-480.avif 480w, photos/a-interior-candelabru-1-840.avif 840w",
+        "width": 840,
+        "height": 1409,
+        "color": "rgb(24, 40, 40)",
+        "alt": "Candelabru metalic aurit cu numeroase lumini, suspendat în interiorul unui lăcaș de cult cu pereți și boltă pictate în frescă",
+        "caption": "Policandrul aurit și fresca bolții într-o biserică ortodoxă din comuna Runcu.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "f8e2ee07e374e86b317dd5828a40845c",
+      "code": "2ZXNHF",
+      "radius": 250,
+      "isPhysical": true
+    },
+    {
+      "id": "b-port-popular-ansamblu",
+      "category": "B",
+      "title": "Portul popular gorjenesc și tinerii păstrători de tradiții din Runcu",
+      "shortDescription": "Comuna Runcu păstrează cu mândrie bogăția costumului popular din zona submontană a Gorjului, transmis astăzi tinerelor generații prin ansamblurile folclorice locale.",
+      "coordinates": [
+        23.1423,
+        45.1192
+      ],
+      "photo": "photos/b-port-popular-ansamblu-1-840.webp",
+      "photoMeta": {
+        "src": "photos/b-port-popular-ansamblu-1-840.webp",
+        "srcsetWebp": "photos/b-port-popular-ansamblu-1-480.webp 480w, photos/b-port-popular-ansamblu-1-840.webp 840w",
+        "srcsetAvif": "photos/b-port-popular-ansamblu-1-480.avif 480w, photos/b-port-popular-ansamblu-1-840.avif 840w",
+        "width": 840,
+        "height": 695,
+        "color": "rgb(8, 8, 24)",
+        "alt": "Grup de copii și tineri în costume populare tradiționale gorjenești, fotografiați în fața unei clădiri din bârne de lemn",
+        "caption": "Tineri și copii din ansamblul folcloric în costume autentice gorjenești.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "eb2120433fa7f5fe906c388fef6ab1bd",
+      "code": "WVTT4P",
+      "radius": 200,
+      "isPhysical": false
+    },
+    {
+      "id": "b-dans-hora",
+      "category": "B",
+      "title": "Hora satului și sărbătorile comunității din Runcu",
+      "shortDescription": "Din generație în generație, hora duminicală și nedeile sătești au reprezentat inima vieții sociale în satele comunei Runcu.",
+      "coordinates": [
+        23.1485,
+        45.116
+      ],
+      "photo": "photos/b-dans-hora-1-840.webp",
+      "photoMeta": {
+        "src": "photos/b-dans-hora-1-840.webp",
+        "srcsetWebp": "photos/b-dans-hora-1-480.webp 480w, photos/b-dans-hora-1-840.webp 840w",
+        "srcsetAvif": "photos/b-dans-hora-1-480.avif 480w, photos/b-dans-hora-1-840.avif 840w",
+        "width": 840,
+        "height": 627,
+        "color": "rgb(8, 8, 8)",
+        "alt": "Fotografie alb-negru cu perechi de localnici în port popular dansând în aer liber, acompaniați la acordeon",
+        "caption": "Joc popular în aer liber acompaniat la acordeon — imagine din arhiva comunității.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "a1484dc2011d697d17e4666049cb1f13",
+      "code": "NEEA57",
+      "radius": 250,
+      "isPhysical": false
+    },
+    {
+      "id": "b-mesteguri-torsul-lanii",
+      "category": "B",
+      "title": "Meșteșugul torsului lânii și țesăturile pe prispa casei bătrânești",
+      "shortDescription": "În gospodăriile tradiționale din satele comunei Runcu, prelucrarea lânii a fost timp de veacuri un meșteșug de bază al economiei casnice.",
+      "coordinates": [
+        23.1195,
+        45.12
+      ],
+      "photo": "photos/b-mesteguri-torsul-lanii-1-840.webp",
+      "photoMeta": {
+        "src": "photos/b-mesteguri-torsul-lanii-1-840.webp",
+        "srcsetWebp": "photos/b-mesteguri-torsul-lanii-1-480.webp 480w, photos/b-mesteguri-torsul-lanii-1-840.webp 720w",
+        "srcsetAvif": "photos/b-mesteguri-torsul-lanii-1-480.avif 480w, photos/b-mesteguri-torsul-lanii-1-840.avif 720w",
+        "width": 720,
+        "height": 960,
+        "color": "rgb(8, 8, 8)",
+        "alt": "Trei femei în port popular gorjenesc cu maramă albă torcând lână pe prispa de lemn a unei case vechi, lângă o scoarță țesută",
+        "caption": "Torsul lânii cu furca și fusul pe prispa unei case tradiționale din bârne de lemn.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "cd1c6359f0f1bc97894f34613db9f78c",
+      "code": "ESAKMM",
+      "radius": 250,
+      "isPhysical": false
+    },
+    {
+      "id": "b-gastronomie-locala",
+      "category": "B",
+      "title": "Bucate tradiționale gorjenești din gospodăriile de sub munte",
+      "shortDescription": "Masa tradițională din Runcu oglindește legătura strânsă dintre oieritul montan din Vâlcan și grădinile rodnice din vatra satelor subcarpatice.",
+      "coordinates": [
+        23.102,
+        45.1181
+      ],
+      "photo": "photos/b-gastronomie-locala-1-840.webp",
+      "photoMeta": {
+        "src": "photos/b-gastronomie-locala-1-840.webp",
+        "srcsetWebp": "photos/b-gastronomie-locala-1-480.webp 480w, photos/b-gastronomie-locala-1-840.webp 840w",
+        "srcsetAvif": "photos/b-gastronomie-locala-1-480.avif 480w, photos/b-gastronomie-locala-1-840.avif 840w",
+        "width": 840,
+        "height": 630,
+        "color": "rgb(40, 24, 24)",
+        "alt": "Platou tradițional de lemn pe țesătură populară, cu brânză telemea, praz, roșii, ardei iute, usturoi împletit și afumături",
+        "caption": "Gustare țărănească pe ștergar țesut: brânză de stână, praz oltenesc, legume de grădină și afumături.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "f549f3a6d4d9831da33446b6f184168f",
+      "code": "P3KHYR",
+      "radius": 250,
+      "isPhysical": false
+    },
+    {
+      "id": "c-personalitate-locala",
+      "category": "C",
+      "title": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului” și Festivalul Cântecului Popular",
+      "shortDescription": "Născută în Runcu la 11 august 1954, Maria Apostol a fost una dintre cele mai strălucite și iubite voci ale folclorului gorjenesc, supranumită „Privighetoarea Gorjului”.",
+      "coordinates": [
+        23.1415,
+        45.1198
+      ],
+      "photo": "photos/c-personalitate-locala-1-840.webp",
+      "photoMeta": {
+        "src": "photos/c-personalitate-locala-1-840.webp",
+        "srcsetWebp": "photos/c-personalitate-locala-1-480.webp 480w, photos/c-personalitate-locala-1-840.webp 602w",
+        "srcsetAvif": "photos/c-personalitate-locala-1-480.avif 480w, photos/c-personalitate-locala-1-840.avif 602w",
+        "width": 602,
+        "height": 953,
+        "color": "rgb(120, 136, 136)",
+        "alt": "Portretul îndrăgitei soliste de muzică populară Maria Apostol în ie tradițională gorjenească cu broderie fină și floare albă în păr",
+        "caption": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului”, în costum popular tradițional din Runcu.",
+        "credit": "Arhiva familiei și a comunității Runcu"
+      },
+      "token": "39edc156f740e118cc7b73434c4d9707",
+      "code": "4QRGVF",
+      "radius": 200,
+      "isPhysical": false
+    },
+    {
+      "id": "d-rachiti-troite-lemn",
+      "category": "D",
+      "title": "Satul Răchiți — Poarta de intrare în comună și troițele sculptate în lemn",
+      "shortDescription": "Așezat la intrarea sud-estică în comuna Runcu — atestată oficial ca stațiune turistică de interes local — satul Răchiți îi întâmpină pe călători cu un ansamblu comunitar ce îmbină ospitalitatea cu meșteșugul sculpturii în lemn.",
+      "coordinates": [
+        23.1517,
+        45.0975
+      ],
+      "photo": "photos/d-rachiti-troite-lemn-1-840.webp",
+      "photoMeta": {
+        "src": "photos/d-rachiti-troite-lemn-1-840.webp",
+        "srcsetWebp": "photos/d-rachiti-troite-lemn-1-480.webp 480w, photos/d-rachiti-troite-lemn-1-840.webp 840w",
+        "srcsetAvif": "photos/d-rachiti-troite-lemn-1-480.avif 480w, photos/d-rachiti-troite-lemn-1-840.avif 840w",
+        "width": 840,
+        "height": 392,
+        "color": "rgb(200, 216, 232)",
+        "alt": "Intrarea în satul Răchiți, Comuna Runcu — Stațiune Turistică, cu foișor de lemn, stație și troiță sculptată",
+        "caption": "Intrarea în satul Răchiți (Comuna Runcu — Stațiune Turistică), cu foișorul de popas și troița din lemn.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "675d56f5ab2accc50f4f01d1b7e1bb06",
+      "code": "EFPSRP",
+      "radius": 200,
+      "isPhysical": false
+    },
+    {
+      "id": "d-poveste-comunitate",
+      "category": "D",
+      "title": "Runcu în imagini de epocă: gospodăria, claca și memoria satului",
+      "shortDescription": "Fotografiile de arhivă păstrate în familiile din comună deschid o fereastră rară către lumea satului gorjenesc din secolul trecut.",
+      "coordinates": [
+        23.1741,
+        45.135
+      ],
+      "photo": "photos/d-poveste-comunitate-1-840.webp",
+      "photoMeta": {
+        "src": "photos/d-poveste-comunitate-1-840.webp",
+        "srcsetWebp": "photos/d-poveste-comunitate-1-480.webp 480w, photos/d-poveste-comunitate-1-840.webp 840w",
+        "srcsetAvif": "photos/d-poveste-comunitate-1-480.avif 480w, photos/d-poveste-comunitate-1-840.avif 840w",
+        "width": 840,
+        "height": 1252,
+        "color": "rgb(88, 72, 40)",
+        "alt": "Fotografie veche în tonuri sepia înfățișând două femei și un copil în port tradițional lângă o troiță de lemn cu acoperiș de șindrilă",
+        "caption": "Localnice și copil în port tradițional lângă o troiță veche de lemn cu acoperiș de șindrilă.",
+        "credit": "Arhiva foto a proiectului — Comuna Runcu"
+      },
+      "token": "2ee0ab2712de977b19e64214b51e1539",
+      "code": "B7RQ8S",
+      "radius": 250,
+      "isPhysical": false
+    }
+  ]
+}

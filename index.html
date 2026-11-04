@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Pașaportul Runcului — Lider European 2026</title>
+    
+    <meta
+      name="description"
+      content="Jurnalul și pașaportul digital al comunei Runcu, județul Gorj. Descoperă patrimoniul natural, tradițiile și memoria locului, colecționează ștampile și primește certificatul oficial de explorator."
+    />
+    <meta name="theme-color" content="#07100D" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Pașaport Runcu" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Pașaportul Runcului — Lider European 2026" />
+    <meta property="og:description" content="Jurnal de expediție și ștampilare digitală în comuna Runcu, jud. Gorj." />
+    <meta property="og:image" content="./photos/a-chei-rau.webp" />
+
+    <!-- Favicon SVG -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%2307100D' stroke='%23E5A93C' stroke-width='6'/><text x='50' y='62' text-anchor='middle' font-size='42' fill='%23E5A93C' font-family='serif'>R</text></svg>" />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+
+    <!-- Preload Critical Self-Hosted Fonts (Zero external network dependencies) -->
+    <link rel="preload" href="./fonts/plus-jakarta-sans-600-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/cormorant-garamond-700-latin.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Critical Inlined CSS for Instant First Contentful Paint -->
+    <style>
+      :root {
+        --bg-obsidian: #07100D;
+        --bg-elevated: #0E1814;
+        --text-primary: #F5F3EE;
+        --gold-foil: #E5A93C;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100%;
+        background-color: #07100D;
+        color: #F5F3EE;
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .app-container {
+        max-width: 540px;
+        margin: 0 auto;
+        min-height: 100vh;
+        position: relative;
+      }
+      /* View Transitions native animations */
+      @keyframes vt-fade-in { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes vt-fade-out { from { opacity: 1; } to { opacity: 0; } }
+      ::view-transition-old(root) { animation: 200ms ease-out both vt-fade-out; }
+      ::view-transition-new(root) { animation: 240ms ease-in both vt-fade-in; }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="app-container"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
