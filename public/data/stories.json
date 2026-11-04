@@ -1195,8 +1195,8 @@
     {
       "id": "c-personalitate-locala",
       "category": "C",
-      "title": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului” și Festivalul Cântecului Popular",
-      "subtitle": "",
+      "title": "Personalități de Seamă: Maria Apostol, Ion Cănăvoiu & G-ral Constantin Șandru",
+      "subtitle": "Maria Apostol („Privighetoarea Gorjului”), Ion Cănăvoiu (revista HAZ-ul) și G-ral Constantin Șandru",
       "coordinates": [
         23.1415,
         45.1198
@@ -1222,8 +1222,42 @@
           "alt": "Portretul îndrăgitei soliste de muzică populară Maria Apostol în ie tradițională gorjenească cu broderie fină și floare albă în păr",
           "caption": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului”, în costum popular tradițional din Runcu.",
           "credit": "Arhiva familiei și a comunității Runcu",
-          "text": "Născută în Runcu la 11 august 1954, Maria Apostol a fost una dintre cele mai strălucite și iubite voci ale folclorului gorjenesc, supranumită „Privighetoarea Gorjului”.",
-          "didYouKnow": null
+          "text": "Născută în Runcu la 11 august 1954, Maria Apostol a fost una dintre cele mai strălucite și iubite voci ale folclorului gorjenesc, laureată cu nota 10 la prestigiosul trofeu TVR „Floarea din grădină” (1973) și solistă a Ansamblului „Rapsodia Română”.",
+          "didYouKnow": "Maria Apostol a fost laureată cu nota 10 la trofeul TVR „Floarea din grădină”, în 1973."
+        },
+        {
+          "photo": "photos/c-personalitate-ion-canavoiu.webp",
+          "photoMeta": {
+            "src": "photos/c-personalitate-ion-canavoiu.webp",
+            "width": 500,
+            "height": 512,
+            "color": "rgb(20, 20, 24)",
+            "alt": "Portretul scriitorului și epigramistului Ion Cănăvoiu născut în comuna Runcu",
+            "caption": "Ion Cănăvoiu (1939–1992) — poet, prozator, epigramist și gazetar gorjean, născut în satul Runcu.",
+            "credit": "Arhiva culturală a Gorjului"
+          },
+          "alt": "Portretul scriitorului și epigramistului Ion Cănăvoiu născut în comuna Runcu",
+          "caption": "Ion Cănăvoiu (1939–1992) — poet, prozator, epigramist și gazetar gorjean, născut în satul Runcu.",
+          "credit": "Arhiva culturală a Gorjului",
+          "text": "Născut la Runcu pe 8 septembrie 1939, Ion Cănăvoiu a fost o conștiință strălucită a literaturii umoristice și a presei gorjene. Gazetar neobosit, a creat și condus celebra revistă satirică „HAZ-ul”. Astăzi, memoria sa este celebrată prin prestigiosul Festival Internațional de Umor și Caricatură „Ion Cănăvoiu”.",
+          "didYouKnow": "Ion Cănăvoiu a fondat celebra revistă satirică „HAZ-ul”, fiind omagiat anual la Runcu și Tg-Jiu printr-un festival internațional de umor."
+        },
+        {
+          "photo": "assets/logos/logo-liceu-runcu.jpg",
+          "photoMeta": {
+            "src": "assets/logos/logo-liceu-runcu.jpg",
+            "width": 1024,
+            "height": 1024,
+            "color": "rgb(26, 54, 93)",
+            "alt": "Blazonul oficial al Liceului Tehnologic General Constantin Șandru Bâlta, Comuna Runcu",
+            "caption": "Blazonul Liceului Tehnologic „General Constantin Șandru” din satul Bâlta, Comuna Runcu.",
+            "credit": "Liceul Tehnologic „General Constantin Șandru” Bâlta"
+          },
+          "alt": "Blazonul oficial al Liceului Tehnologic General Constantin Șandru Bâlta, Comuna Runcu",
+          "caption": "Blazonul Liceului Tehnologic „General Constantin Șandru” din satul Bâlta, Comuna Runcu.",
+          "credit": "Liceul Tehnologic „General Constantin Șandru” Bâlta",
+          "text": "Memoria Generalului Constantin Șandru este cinstită cu mândrie în comuna Runcu, patronând spiritual Liceul Tehnologic din satul Bâlta. Instituția reprezintă inima învățământului tehnic și liceal al comunei, pregătind tinerii exploratori pentru cariere de succes.",
+          "didYouKnow": "Liceul Tehnologic din Bâlta poartă numele Generalului Constantin Șandru și coordonează activitatea educațională din satele comunei Runcu."
         },
         {
           "photo": "photos/c-personalitate-locala-2-840.webp",
@@ -1241,45 +1275,7 @@
           "alt": "Monumentul din marmură albă al Mariei Apostol înconjurat de bujori roșii proaspeți, cu inscripția O voce inegalabilă a muzicii populare gorjenești și versul Ușurel trecui prin lume ca pasărea prin pădure",
           "caption": "Monumentul memorial din marmură albă împodobit cu bujori roșii: „Ușurel trecui prin lume ca pasărea prin pădure...”.",
           "credit": "Fotografie din comunitate — Comuna Runcu",
-          "text": "Laureată cu nota 10 la prestigiosul trofeu TVR „Floarea din grădină” (1973) și solistă a Ansamblului „Rapsodia Română”, a dus doinele și cântecele de pe Valea Sohodolului pe marile scene ale lumii.",
-          "didYouKnow": null
-        },
-        {
-          "photo": "photos/c-personalitate-locala-3-840.webp",
-          "photoMeta": {
-            "src": "photos/c-personalitate-locala-3-840.webp",
-            "srcsetWebp": "photos/c-personalitate-locala-3-480.webp 480w, photos/c-personalitate-locala-3-840.webp 840w",
-            "srcsetAvif": "photos/c-personalitate-locala-3-480.avif 480w, photos/c-personalitate-locala-3-840.avif 840w",
-            "width": 840,
-            "height": 630,
-            "color": "rgb(8, 8, 8)",
-            "alt": "Tineri dansatori în port popular gorjenesc pe scena Festivalului-Concurs al Cântecului Popular Maria Apostol din Runcu",
-            "caption": "Evoluție pe scena Festivalului-Concurs Național al Cântecului Popular „Maria Apostol” din Runcu.",
-            "credit": "Arhiva foto a proiectului — Comuna Runcu"
-          },
-          "alt": "Tineri dansatori în port popular gorjenesc pe scena Festivalului-Concurs al Cântecului Popular Maria Apostol din Runcu",
-          "caption": "Evoluție pe scena Festivalului-Concurs Național al Cântecului Popular „Maria Apostol” din Runcu.",
-          "credit": "Arhiva foto a proiectului — Comuna Runcu",
-          "text": "În satul natal Runcu îi este păstrată vie memoria prin casa muzeală, monumentul memorial din marmură albă înflorit cu bujori pe care stă gravat nemuritorul său vers: „Ușurel trecui prin lume ca pasărea prin pădure...”, și prin Festivalul-Concurs Național al Cântecului Popular „Maria Apostol”, organizat anual de autoritățile locale și județene.",
-          "didYouKnow": "Maria Apostol a fost laureată cu nota 10 la trofeul TVR „Floarea din grădină”, în 1973."
-        },
-        {
-          "photo": "photos/c-personalitate-locala-1-840.webp",
-          "photoMeta": {
-            "src": "photos/c-personalitate-locala-1-840.webp",
-            "srcsetWebp": "photos/c-personalitate-locala-1-480.webp 480w, photos/c-personalitate-locala-1-840.webp 602w",
-            "srcsetAvif": "photos/c-personalitate-locala-1-480.avif 480w, photos/c-personalitate-locala-1-840.avif 602w",
-            "width": 602,
-            "height": 953,
-            "color": "rgb(120, 136, 136)",
-            "alt": "Portretul îndrăgitei soliste de muzică populară Maria Apostol în ie tradițională gorjenească cu broderie fină și floare albă în păr",
-            "caption": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului”, în costum popular tradițional din Runcu.",
-            "credit": "Arhiva familiei și a comunității Runcu"
-          },
-          "alt": "Portretul îndrăgitei soliste de muzică populară Maria Apostol în ie tradițională gorjenească cu broderie fină și floare albă în păr",
-          "caption": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului”, în costum popular tradițional din Runcu.",
-          "credit": "Arhiva familiei și a comunității Runcu",
-          "text": "Glasul limpede și plin de dor al Mariei Apostol a dus doinele și baladele Runcului pe cele mai mari scene ale țării, devenind o emblemă a folclorului românesc.",
+          "text": "În satul natal Runcu îi este păstrată vie memoria prin casa muzeală, monumentul memorial din marmură albă înflorit cu bujori pe care stă gravat nemuritorul său vers: „Ușurel trecui prin lume ca pasărea prin pădure...”, și prin Festivalul-Concurs Național al Cântecului Popular „Maria Apostol”.",
           "didYouKnow": null
         }
       ],
@@ -1294,6 +1290,24 @@
           "alt": "Portretul îndrăgitei soliste de muzică populară Maria Apostol în ie tradițională gorjenească cu broderie fină și floare albă în păr",
           "caption": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului”, în costum popular tradițional din Runcu.",
           "credit": "Arhiva familiei și a comunității Runcu"
+        },
+        {
+          "src": "photos/c-personalitate-ion-canavoiu.webp",
+          "width": 500,
+          "height": 512,
+          "color": "rgb(20, 20, 24)",
+          "alt": "Portretul poetului și epigramistului Ion Cănăvoiu",
+          "caption": "Ion Cănăvoiu (1939–1992) — om de litere gorjean, autor și fondator al revistei HAZ-ul.",
+          "credit": "Arhiva culturală a Gorjului"
+        },
+        {
+          "src": "assets/logos/logo-liceu-runcu.jpg",
+          "width": 1024,
+          "height": 1024,
+          "color": "rgb(26, 54, 93)",
+          "alt": "Blazonul oficial al Liceului Tehnologic General Constantin Șandru Bâlta",
+          "caption": "Blazonul oficial al Liceului Tehnologic „General Constantin Șandru” Bâlta, Comuna Runcu.",
+          "credit": "Liceul Tehnologic „General Constantin Șandru”"
         },
         {
           "src": "photos/c-personalitate-locala-2-840.webp",
@@ -1327,11 +1341,11 @@
         }
       ],
       "quiz": {
-        "question": "Cum a fost supranumită Maria Apostol?",
+        "question": "Ce personalitate născută la Runcu a fondat revista satirică „HAZ-ul” și este cinstită printr-un festival internațional de umor?",
         "options": [
-          "„Privighetoarea Gorjului”",
-          "„Ciocârlia Moldovei”",
-          "„Glasul Banatului”"
+          "Ion Cănăvoiu",
+          "Tudor Arghezi",
+          "Marin Sorescu"
         ],
         "answerIndex": 0
       }

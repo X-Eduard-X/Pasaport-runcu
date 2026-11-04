@@ -1,5 +1,5 @@
 /**
- * Professional Cinematic Intro Component — "Pașaportul Runcului"
+ * Professional Cinematic Intro Component — "Pașaportul Comunei Runcu"
  *
  * Sequence (~4-5s total):
  *  1. Pure deep night -> Commune boundary draws with a single golden path (strokeDashoffset)
@@ -73,7 +73,7 @@ export function initIntroCinematic({ onComplete } = {}) {
       overlayEl.className = 'intro-cinematic-stage';
       overlayEl.setAttribute('role', 'dialog');
       overlayEl.setAttribute('aria-modal', 'true');
-      overlayEl.setAttribute('aria-label', 'Prolog cinematic: Pașaportul Runcului');
+      overlayEl.setAttribute('aria-label', 'Prolog cinematic: Pașaportul Comunei Runcu');
       document.body.appendChild(overlayEl);
     }
 
@@ -96,7 +96,7 @@ export function initIntroCinematic({ onComplete } = {}) {
           </svg>
         </div>
         <div class="intro-kicker-badge">Lider European 2026</div>
-        <h1 class="intro-title-primary">PAȘAPORTUL RUNCULUI</h1>
+        <h1 class="intro-title-primary">PAȘAPORTUL COMUNEI RUNCU</h1>
         <p class="intro-lead-desc">Jurnal Digital de Călătorie &amp; Povești Vii din Munții Vâlcan</p>
         <button type="button" class="btn-intro-cta" id="btn-intro-enter-minimal">
           <span>Deschide Pașaportul</span>
@@ -142,7 +142,7 @@ export function initIntroCinematic({ onComplete } = {}) {
               <span class="intro-kicker-text" id="intro-kicker">COMUNA RUNCU • JUDEȚUL GORJ • 2026</span>
             </div>
             <div class="intro-mask-line">
-              <h1 class="intro-main-brand-title" id="intro-brand-title">PAȘAPORTUL RUNCULUI</h1>
+              <h1 class="intro-main-brand-title" id="intro-brand-title">PAȘAPORTUL COMUNEI RUNCU</h1>
             </div>
             <div class="intro-mask-line">
               <p class="intro-sub-brand-tagline" id="intro-brand-sub">Jurnal Digital de Călătorie &amp; Povești Vii din Munții Vâlcan</p>
@@ -183,7 +183,7 @@ export function initIntroCinematic({ onComplete } = {}) {
                   </svg>
                 </div>
                 <span class="intro-cover-badge">CARNET OFICIAL</span>
-                <h2 class="intro-cover-title">PAȘAPORTUL RUNCULUI</h2>
+                <h2 class="intro-cover-title">PAȘAPORTUL COMUNEI RUNCU</h2>
                 <span class="intro-cover-sub">Comuna Runcu • Munții Vâlcan</span>
 
                 <!-- Institutional Endorsement on 3D Cover -->

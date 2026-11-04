@@ -113,7 +113,7 @@ export function renderPassportView(stampsData, container, { initialPage = 0 } = 
 
             <div class="cover-typography">
               <div class="cover-sub-foil">COMUNA RUNCU • JUDEȚUL GORJ</div>
-              <h1 class="cover-main-title">PAȘAPORTUL RUNCULUI</h1>
+              <h1 class="cover-main-title">PAȘAPORTUL COMUNEI RUNCU</h1>
               <div class="cover-seal-tag">LIDER EUROPEAN 2026</div>
             </div>
 

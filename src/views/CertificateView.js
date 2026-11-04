@@ -122,14 +122,14 @@ export function renderCertificateView(stampsData, container) {
             if (blob && navigator.canShare && navigator.canShare({ files: [new File([blob], 'certificat.png', { type: 'image/png' })] })) {
               const file = new File([blob], 'Certificat-Explorator-Runcu.png', { type: 'image/png' });
               await navigator.share({
-                title: 'Certificat de Explorator al Runcului',
-                text: 'Am completat Pașaportul Runcului — Proiectul Lider European 2026!',
+                title: 'Certificat de Explorator al Comunei Runcu',
+                text: 'Am completat Pașaportul Comunei Runcu — Proiectul Lider European 2026!',
                 files: [file]
               });
             } else {
               await navigator.share({
-                title: 'Certificat de Explorator al Runcului',
-                text: 'Am completat toate cele 12 ștampile în Pașaportul Runcului!',
+                title: 'Certificat de Explorator al Comunei Runcu',
+                text: 'Am completat toate cele 12 ștampile în Pașaportul Comunei Runcu!',
                 url: window.location.href
               });
             }
@@ -217,24 +217,33 @@ async function drawCertificateToCanvas(canvas, { userName, certDate, certSeries,
     ctx.fillText('COMUNA RUNCU', stemaX + stemaW / 2, stemaY + stemaH + 18);
   }
 
-  // 2. Draw Liceul Tehnologic G-ral C-tin Șandru Seal (Top Right)
+  // 2. Draw Liceul Tehnologic G-ral C-tin Șandru Shield (Top Right)
   if (imgLiceu) {
     const liceuSize = 118;
     const liceuX = w - 90 - liceuSize;
     const liceuY = 82;
     const cx = liceuX + liceuSize / 2;
-    const cy = liceuY + liceuSize / 2;
-    const r = liceuSize / 2;
+    const rad = 10;
 
     ctx.save();
     ctx.beginPath();
-    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    if (typeof ctx.roundRect === 'function') {
+      ctx.roundRect(liceuX, liceuY, liceuSize, liceuSize, rad);
+    } else {
+      ctx.rect(liceuX, liceuY, liceuSize, liceuSize);
+    }
+    ctx.fillStyle = '#FFFFFF';
+    ctx.fill();
     ctx.clip();
-    ctx.drawImage(imgLiceu, liceuX, liceuY, liceuSize, liceuSize);
+    ctx.drawImage(imgLiceu, liceuX + 4, liceuY + 4, liceuSize - 8, liceuSize - 8);
     ctx.restore();
 
     ctx.beginPath();
-    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    if (typeof ctx.roundRect === 'function') {
+      ctx.roundRect(liceuX, liceuY, liceuSize, liceuSize, rad);
+    } else {
+      ctx.rect(liceuX, liceuY, liceuSize, liceuSize);
+    }
     ctx.strokeStyle = '#D8A24A';
     ctx.lineWidth = 2.5;
     ctx.stroke();

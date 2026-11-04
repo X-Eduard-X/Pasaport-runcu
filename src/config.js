@@ -1,10 +1,10 @@
 /**
  * Application Configuration & External URLs
- * Project: Pașaportul Runcului — Lider European 2026
+ * Project: Pașaportul Comunei Runcu — Lider European 2026
  */
 
 export const APP_CONFIG = {
-  appName: 'Pașaportul Runcului',
+  appName: 'Pașaportul Comunei Runcu',
   appSubtitle: 'Lider European 2026 • Comuna Runcu, Jud. Gorj',
   
   // Deployment & Map links (can be overridden as needed)

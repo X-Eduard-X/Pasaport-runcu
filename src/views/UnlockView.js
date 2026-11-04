@@ -24,11 +24,9 @@ export async function renderUnlockView(stampId, token, stampsData, container) {
     container.innerHTML = `
       <header class="app-header">
         <div class="app-brand">
-          <svg class="brand-emblem-mini" viewBox="-4 -4 108 108" fill="none" stroke="currentColor" stroke-width="3.5" aria-hidden="true">
-            <path d="${RUNCU_BOUNDARY_PATH}" fill="currentColor" fill-opacity="0.2"/>
-          </svg>
+          <img src="./assets/logos/stema-comuna-runcu.png" alt="Stema Comunei Runcu" class="brand-crest-stema" width="28" height="44" />
           <div class="brand-text-col">
-            <span class="brand-title">Pașaportul Runcului</span>
+            <span class="brand-title">Pașaportul Comunei Runcu</span>
             <span class="brand-subtitle">Lider European 2026</span>
           </div>
         </div>
@@ -102,11 +100,9 @@ export async function renderUnlockView(stampId, token, stampsData, container) {
     <!-- Top Brand Header for Unlock Page -->
     <header class="app-header">
       <div class="app-brand">
-        <svg class="brand-emblem-mini" viewBox="-4 -4 108 108" fill="none" stroke="currentColor" stroke-width="3.5" aria-hidden="true">
-          <path d="${RUNCU_BOUNDARY_PATH}" fill="currentColor" fill-opacity="0.2"/>
-        </svg>
+        <img src="./assets/logos/stema-comuna-runcu.png" alt="Stema Comunei Runcu" class="brand-crest-stema" width="28" height="44" />
         <div class="brand-text-col">
-          <span class="brand-title">Pașaportul Runcului</span>
+          <span class="brand-title">Pașaportul Comunei Runcu</span>
           <span class="brand-subtitle">Lider European 2026</span>
         </div>
       </div>

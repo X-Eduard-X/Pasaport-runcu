@@ -1,5 +1,5 @@
 /**
- * Application Entry Point — „Pașaportul Runcului”
+ * Application Entry Point — „Pașaportul Comunei Runcu”
  * Lider European 2026 • Comuna Runcu, Județul Gorj
  */
 

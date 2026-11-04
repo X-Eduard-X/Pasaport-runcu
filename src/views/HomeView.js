@@ -1,6 +1,6 @@
 /**
  * Home View — Landing, Interactive SVG Mini-Map, 3 Steps Guide, Progress & Points List
- * Part of "Pașaportul Runcului" — Expedition Journal Style
+ * Part of "Pașaportul Comunei Runcu" — Expedition Journal Style
  */
 
 import { gsap } from 'gsap';
@@ -26,7 +26,7 @@ export function renderHomeView(stampsData, container) {
       <div class="app-brand">
         <img src="./assets/logos/stema-comuna-runcu.png" alt="Stema Comunei Runcu" class="brand-crest-stema" width="28" height="44" />
         <div class="brand-text-col">
-          <span class="brand-title">Pașaportul Runcului</span>
+          <span class="brand-title">Pașaportul Comunei Runcu</span>
           <span class="brand-subtitle">Lider European 2026</span>
         </div>
       </div>
@@ -220,7 +220,7 @@ export function renderHomeView(stampsData, container) {
         <img src="./assets/logos/logo-lider-european.jpg" alt="Lider European 2026" class="footer-logo-rect" width="38" height="48" />
       </div>
       <p class="footer-institutional-text">
-        <strong>Pașaportul Runcului</strong> • Inițiativă educațională și de promovare a patrimoniului cultural și natural dezvoltată de <strong>Liceul Tehnologic „G-ral C-tin Șandru” Bâlta - Runcu</strong> în parteneriat cu <strong>Comuna Runcu</strong>, în cadrul Competiției Naționale <strong>Lider European 2026</strong>.
+        <strong>Pașaportul Comunei Runcu</strong> • Inițiativă educațională și de promovare a patrimoniului cultural și natural dezvoltată de <strong>Liceul Tehnologic „G-ral C-tin Șandru” Bâlta - Runcu</strong> în parteneriat cu <strong>Comuna Runcu</strong>, în cadrul Competiției Naționale <strong>Lider European 2026</strong>.
       </p>
       <p class="footer-privacy-text">
         Toate ștampilele și datele de progres sunt salvate exclusiv local pe dispozitivul tău. Aplicația funcționează complet offline pe traseu.

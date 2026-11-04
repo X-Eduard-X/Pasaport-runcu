@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PAȘAPORTUL RUNCULUI — DIRECȚIA ARTISTICĂ: „JURNAL DE EXPEDIȚIE”
+   PAȘAPORTUL COMUNEI RUNCU — DIRECȚIA ARTISTICĂ: „JURNAL DE EXPEDIȚIE”
    Lider European 2026 • Comuna Runcu, Județul Gorj
    Design System, Ambient Topography, 3D Leather Cover & Warm Paper Pages
    ========================================================================== */
@@ -4396,11 +4396,13 @@ body.presentation-mode .slot-stamp-frame svg {
 }
 
 .inst-logo-round {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--gold-foil);
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 2px;
+  border: 1.5px solid var(--gold-foil);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease;
 }
@@ -4500,9 +4502,11 @@ body.presentation-mode .slot-stamp-frame svg {
 .footer-logo-round {
   width: 48px;
   height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--gold-foil);
+  border-radius: 8px;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 2px;
+  border: 1.5px solid var(--gold-foil);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
 }
 
@@ -4596,9 +4600,11 @@ body.presentation-mode .slot-stamp-frame svg {
 .cover-crest-round {
   width: 28px;
   height: 28px;
-  border-radius: 50%;
+  border-radius: 6px;
   border: 1.5px solid var(--gold-foil);
-  object-fit: cover;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 1px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
 
@@ -4655,9 +4661,11 @@ body.presentation-mode .slot-stamp-frame svg {
 .paper-crest-img.liceu {
   width: 34px;
   height: 34px;
-  border-radius: 50%;
+  border-radius: 6px;
   border: 1.5px solid var(--paper-text-muted);
-  object-fit: cover;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 1px;
 }
 
 .paper-crest-img.lider {
@@ -4708,11 +4716,13 @@ body.presentation-mode .slot-stamp-frame svg {
 }
 
 .cert-partner-img.round {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
   border: 1px solid var(--gold-foil);
-  object-fit: cover;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 1px;
 }
 
 .cert-partner-img.rect {
@@ -4741,9 +4751,11 @@ body.presentation-mode .slot-stamp-frame svg {
 .intro-partner-logo.round {
   width: 26px;
   height: 26px;
-  border-radius: 50%;
+  border-radius: 5px;
   border: 1.5px solid var(--gold-foil);
-  object-fit: cover;
+  object-fit: contain;
+  background: #ffffff;
+  padding: 1px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
 

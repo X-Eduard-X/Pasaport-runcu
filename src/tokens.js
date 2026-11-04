@@ -1,6 +1,6 @@
 /**
  * Design System Tokens — „Jurnal de Expediție”
- * Project: Pașaportul Runcului • Lider European 2026
+ * Project: Pașaportul Comunei Runcu • Lider European 2026
  * Tactile paper textures, deep obsidian night, gold leaf foil, and authentic category inks.
  */
 

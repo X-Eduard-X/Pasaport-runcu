@@ -1,5 +1,5 @@
 /**
- * Service Worker — Pașaportul Runcului
+ * Service Worker — Pașaportul Comunei Runcu
  * App-shell cache-first, stale-while-revalidate for data, cache limit on photos.
  */
 
