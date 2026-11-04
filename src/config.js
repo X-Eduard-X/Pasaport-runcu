@@ -9,7 +9,7 @@ export const APP_CONFIG = {
   
   // Deployment & Map links (can be overridden as needed)
   PASSPORT_URL: 'https://pasaport-runcu.web.app',
-  MAP_URL: 'https://mapa-runcu.web.app',
+  MAP_URL: 'https://comuna-runcu.vercel.app/',
   
   // Optional features
   verifyLocation: false, // Geolocation check disabled by default
