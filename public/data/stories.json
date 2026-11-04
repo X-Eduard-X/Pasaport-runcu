@@ -1195,8 +1195,8 @@
     {
       "id": "c-personalitate-locala",
       "category": "C",
-      "title": "Personalități de Seamă: Maria Apostol, Ion Cănăvoiu & G-ral Constantin Șandru",
-      "subtitle": "Maria Apostol („Privighetoarea Gorjului”), Ion Cănăvoiu (revista HAZ-ul) și G-ral Constantin Șandru",
+      "title": "Festivalul Internațional Ion Cănăvoiu & Personalitățile Comunei Runcu",
+      "subtitle": "Festivalul de Umor „Ion Cănăvoiu”, Maria Apostol („Privighetoarea Gorjului”) și G-ral C-tin Șandru",
       "coordinates": [
         23.1415,
         45.1198
@@ -1206,6 +1206,57 @@
       "isPhysical": false,
       "needsReview": false,
       "slides": [
+        {
+          "photo": "assets/canavoiu/1-afis-festival-canavoiu.jpg",
+          "photoMeta": {
+            "src": "assets/canavoiu/1-afis-festival-canavoiu.jpg",
+            "width": 418,
+            "height": 546,
+            "color": "rgb(240, 240, 245)",
+            "alt": "Afișul Festivalului Internațional de Umor Ion Cănăvoiu Ediția XXXIII",
+            "caption": "Afișul Festivalului Internațional de Umor „Ion Cănăvoiu”, Ediția XXXIII — CJCPCT Gorj & Comuna Runcu.",
+            "credit": "Centrul Județean pentru Conservarea și Promovarea Culturii Tradiționale Gorj"
+          },
+          "alt": "Afișul Festivalului Internațional de Umor Ion Cănăvoiu Ediția XXXIII",
+          "caption": "Afișul Festivalului Internațional de Umor „Ion Cănăvoiu”, Ediția XXXIII — CJCPCT Gorj & Comuna Runcu.",
+          "credit": "Centrul Județean pentru Conservarea și Promovarea Culturii Tradiționale Gorj",
+          "text": "În fiecare toamnă, comuna Runcu și județul Gorj devin capitala națională a satirei și bunei dispoziții prin Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu” (Ediția a XXXIII-a). Evenimentul reunește peste 130 de creatori la secțiunile de epigramă, fabulă, parodie și grafică satirică.",
+          "didYouKnow": "Festivalul este organizat anual de CJCPCT Gorj și Consiliul Județean Gorj, în parteneriat cu Primăria și Consiliul Local Runcu și Uniunea Epigramiștilor din România."
+        },
+        {
+          "photo": "assets/canavoiu/2-portret-ion-canavoiu.jpg",
+          "photoMeta": {
+            "src": "assets/canavoiu/2-portret-ion-canavoiu.jpg",
+            "width": 750,
+            "height": 966,
+            "color": "rgb(25, 25, 25)",
+            "alt": "Portret de epocă al scriitorului și epigramistului Ion Cănăvoiu născut în Runcu",
+            "caption": "Ion Cănăvoiu (1939–1992) — poet, prozator, epigramist și gazetar de seamă al Gorjului, născut în satul Runcu.",
+            "credit": "Arhiva familiei și a comunității Runcu"
+          },
+          "alt": "Portret de epocă al scriitorului și epigramistului Ion Cănăvoiu născut în Runcu",
+          "caption": "Ion Cănăvoiu (1939–1992) — poet, prozator, epigramist și gazetar de seamă al Gorjului, născut în satul Runcu.",
+          "credit": "Arhiva familiei și a comunității Runcu",
+          "text": "Născut la Runcu pe 8 septembrie 1939, Ion Cănăvoiu a fost o conștiință strălucită a literaturii satirice și a presei românești. Gazetar pasionat, a creat și condus celebra revistă satirică „HAZ-ul”. Operele sale („Soare cu dinți”, „Cobra regală”, „Sonetele vinului”) păstrează viu spiritul ascuțit și mucalit al Olteniei de sub munte.",
+          "didYouKnow": "Ion Cănăvoiu a fost simultan fondator, director, redactor și difuzor al revistei satirice „HAZ-ul”."
+        },
+        {
+          "photo": "assets/canavoiu/3-atelier-caricaturi-runcu.jpg",
+          "photoMeta": {
+            "src": "assets/canavoiu/3-atelier-caricaturi-runcu.jpg",
+            "width": 1024,
+            "height": 768,
+            "color": "rgb(45, 60, 40)",
+            "alt": "Atelier de caricatură în aer liber la Runcu — Maestrul Marian Avramescu oferind caricatura unui jandarm montan",
+            "caption": "Atelier de caricatură în aer liber la Runcu — maestrul Marian Avramescu oferind portretul cu zâmbet unui jandarm montan.",
+            "credit": "Arhiva Festivalului Internațional „Ion Cănăvoiu” — Comuna Runcu"
+          },
+          "alt": "Atelier de caricatură în aer liber la Runcu — Maestrul Marian Avramescu oferind caricatura unui jandarm montan",
+          "caption": "Atelier de caricatură în aer liber la Runcu — maestrul Marian Avramescu oferind portretul cu zâmbet unui jandarm montan.",
+          "credit": "Arhiva Festivalului Internațional „Ion Cănăvoiu” — Comuna Runcu",
+          "text": "Sufletul festivalului la Runcu îl constituie atelierele deschise de caricatură în aer liber. Maeștri consacrați ai peniței, precum graficianul Marian Avramescu, desenează în direct portrete hazlii pentru localnici, turiști și jandarmii montani care veghează siguranța Munților Vâlcan, transformând Runcu într-un pol al prieteniei și zâmbetului.",
+          "didYouKnow": "În cadrul festivalului la Runcu, marii caricaturiști ai României realizează pe loc portrete gratuite pentru comunitate și exploratorii Văii Sohodolului."
+        },
         {
           "photo": "photos/c-personalitate-locala-1-840.webp",
           "photoMeta": {
@@ -1224,23 +1275,6 @@
           "credit": "Arhiva familiei și a comunității Runcu",
           "text": "Născută în Runcu la 11 august 1954, Maria Apostol a fost una dintre cele mai strălucite și iubite voci ale folclorului gorjenesc, laureată cu nota 10 la prestigiosul trofeu TVR „Floarea din grădină” (1973) și solistă a Ansamblului „Rapsodia Română”.",
           "didYouKnow": "Maria Apostol a fost laureată cu nota 10 la trofeul TVR „Floarea din grădină”, în 1973."
-        },
-        {
-          "photo": "photos/c-personalitate-ion-canavoiu.webp",
-          "photoMeta": {
-            "src": "photos/c-personalitate-ion-canavoiu.webp",
-            "width": 500,
-            "height": 512,
-            "color": "rgb(20, 20, 24)",
-            "alt": "Portretul scriitorului și epigramistului Ion Cănăvoiu născut în comuna Runcu",
-            "caption": "Ion Cănăvoiu (1939–1992) — poet, prozator, epigramist și gazetar gorjean, născut în satul Runcu.",
-            "credit": "Arhiva culturală a Gorjului"
-          },
-          "alt": "Portretul scriitorului și epigramistului Ion Cănăvoiu născut în comuna Runcu",
-          "caption": "Ion Cănăvoiu (1939–1992) — poet, prozator, epigramist și gazetar gorjean, născut în satul Runcu.",
-          "credit": "Arhiva culturală a Gorjului",
-          "text": "Născut la Runcu pe 8 septembrie 1939, Ion Cănăvoiu a fost o conștiință strălucită a literaturii umoristice și a presei gorjene. Gazetar neobosit, a creat și condus celebra revistă satirică „HAZ-ul”. Astăzi, memoria sa este celebrată prin prestigiosul Festival Internațional de Umor și Caricatură „Ion Cănăvoiu”.",
-          "didYouKnow": "Ion Cănăvoiu a fondat celebra revistă satirică „HAZ-ul”, fiind omagiat anual la Runcu și Tg-Jiu printr-un festival internațional de umor."
         },
         {
           "photo": "assets/logos/logo-liceu-runcu.jpg",
@@ -1281,6 +1315,33 @@
       ],
       "gallery": [
         {
+          "src": "assets/canavoiu/1-afis-festival-canavoiu.jpg",
+          "width": 418,
+          "height": 546,
+          "color": "rgb(240, 240, 245)",
+          "alt": "Afișul Festivalului Internațional de Umor Ion Cănăvoiu Ediția XXXIII",
+          "caption": "1. Afișul oficial al Festivalului Internațional de Umor „Ion Cănăvoiu”, Ediția XXXIII (CJCPCT Gorj).",
+          "credit": "CJCPCT Gorj & Consiliul Județean Gorj"
+        },
+        {
+          "src": "assets/canavoiu/2-portret-ion-canavoiu.jpg",
+          "width": 750,
+          "height": 966,
+          "color": "rgb(25, 25, 25)",
+          "alt": "Portretul de epocă al scriitorului Ion Cănăvoiu născut în Runcu",
+          "caption": "2. Portret de arhivă: Ion Cănăvoiu (1939–1992), poet, prozator și epigramist din Runcu, ctitorul revistei HAZ-ul.",
+          "credit": "Arhiva familiei și a culturii gorjene"
+        },
+        {
+          "src": "assets/canavoiu/3-atelier-caricaturi-runcu.jpg",
+          "width": 1024,
+          "height": 768,
+          "color": "rgb(45, 60, 40)",
+          "alt": "Atelier de caricatură în aer liber la Runcu — Maestrul Marian Avramescu oferind o caricatură unui jandarm montan",
+          "caption": "3. Atelier în aer liber la Runcu: Maestrul caricaturist Marian Avramescu oferind desenul cu zâmbet unui jandarm montan.",
+          "credit": "Arhiva Festivalului Internațional Ion Cănăvoiu — Comuna Runcu"
+        },
+        {
           "src": "photos/c-personalitate-locala-1-840.webp",
           "srcsetWebp": "photos/c-personalitate-locala-1-480.webp 480w, photos/c-personalitate-locala-1-840.webp 602w",
           "srcsetAvif": "photos/c-personalitate-locala-1-480.avif 480w, photos/c-personalitate-locala-1-840.avif 602w",
@@ -1290,15 +1351,6 @@
           "alt": "Portretul îndrăgitei soliste de muzică populară Maria Apostol în ie tradițională gorjenească cu broderie fină și floare albă în păr",
           "caption": "Maria Apostol (1954–1993) — „Privighetoarea Gorjului”, în costum popular tradițional din Runcu.",
           "credit": "Arhiva familiei și a comunității Runcu"
-        },
-        {
-          "src": "photos/c-personalitate-ion-canavoiu.webp",
-          "width": 500,
-          "height": 512,
-          "color": "rgb(20, 20, 24)",
-          "alt": "Portretul poetului și epigramistului Ion Cănăvoiu",
-          "caption": "Ion Cănăvoiu (1939–1992) — om de litere gorjean, autor și fondator al revistei HAZ-ul.",
-          "credit": "Arhiva culturală a Gorjului"
         },
         {
           "src": "assets/logos/logo-liceu-runcu.jpg",

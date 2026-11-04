@@ -211,6 +211,103 @@ export function renderHomeView(stampsData, container) {
           }).join('')}
         </div>
       </section>
+
+      <!-- Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu” Section -->
+      <section class="festival-canavoiu-section" id="festivalul-ion-canavoiu" aria-label="Festivalul Internațional de Umor Ion Cănăvoiu">
+        <div class="festival-container">
+          <div class="festival-header">
+            <div class="festival-badge">
+              <span class="festival-badge-icon" aria-hidden="true">🎭</span>
+              <span>EVENIMENT CULTURAL DE PRESTIGIU • EDIȚIA XXXIII</span>
+            </div>
+            <h2 class="festival-title">Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu”</h2>
+            <p class="festival-subtitle">
+              Sărbătoarea spiritului gorjenesc, a satirei rafinate și a caricaturii în aer liber, desfășurată anual la Runcu și Târgu Jiu
+            </p>
+          </div>
+
+          <div class="festival-story-card">
+            <div class="festival-story-content">
+              <div class="festival-text-block">
+                <h3 class="festival-h3">Cine a fost Ion Cănăvoiu și ce înseamnă festivalul pentru Runcu?</h3>
+                <p class="festival-p">
+                  Născut în comuna Runcu pe <strong>8 septembrie 1939</strong>, <strong>Ion Cănăvoiu</strong> a fost una dintre cele mai vii conștiințe satirice ale Gorjului — poet plin de sensibilitate, prozator, gazetar și epigramist cu un condei sclipitor. A creat, redactat și difuzat legendara revistă umoristică <strong>„HAZ-ul”</strong>, lăsând posterității volume antologice precum <em>„Soare cu dinți”</em> (fabule) și <em>„Cobra regală”</em> (epigrame).
+                </p>
+                <p class="festival-p">
+                  În fiecare toamnă, memoria sa este cinstită de <strong>Centrul Județean pentru Conservarea și Promovarea Culturii Tradiționale (CJCPCT) Gorj</strong> și <strong>Consiliul Județean Gorj</strong>, în parteneriat cu <strong>Primăria și Consiliul Local Runcu</strong>, Uniunea Epigramiștilor din România și Teatrul Dramatic „Elvira Godeanu”, prin <strong>Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu”</strong> (ajuns la Ediția a XXXIII-a).
+                </p>
+                <p class="festival-p">
+                  Peste 130 de creatori se întrec la secțiunile de epigramă, fabulă, parodie și volum. La Runcu, festivalul are un farmec irezistibil: <strong>ateliere deschise de grafică și caricatură în aer liber</strong>, unde maeștri celebri precum <strong>Marian Avramescu</strong> desenează pe loc portrete cu zâmbet pentru localnici, turiști și jandarmii montani care ocrotesc Cheile Sohodolului.
+                </p>
+
+                <div class="festival-actions-row">
+                  <a href="#/poveste/c-personalitate-locala" class="btn-festival-primary">
+                    ${icon('play', 16)}
+                    <span>Deschide Povestea &amp; Quiz-ul</span>
+                  </a>
+                  <button type="button" class="btn-festival-secondary" id="btn-jump-map-festival">
+                    ${icon('pin', 16)}
+                    <span>Localizează pe Hartă</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- The 3 User-Provided Photos in Exact Order -->
+          <div class="festival-gallery-block">
+            <h3 class="festival-gallery-heading">Momente și Simboluri ale Festivalului (în ordinea oficială)</h3>
+            <p class="festival-gallery-sub">Afișul ediției, portretul marelui epigramist și viața festivalului la Runcu</p>
+            
+            <div class="festival-photos-grid">
+              <!-- Foto 1: Afișul -->
+              <figure class="festival-card">
+                <div class="festival-card-img-wrap">
+                  <img src="./assets/canavoiu/1-afis-festival-canavoiu.jpg" alt="Afișul Festivalului Internațional de Umor Ion Cănăvoiu Ediția XXXIII" class="festival-card-img" loading="lazy" />
+                  <span class="festival-order-tag">1 • Afișul Oficial</span>
+                </div>
+                <figcaption class="festival-card-caption">
+                  <span class="festival-pill">EDIȚIA XXXIII • CJCPCT GORJ</span>
+                  <h4 class="festival-card-title">Afișul Festivalului Internațional „Ion Cănăvoiu”</h4>
+                  <p class="festival-card-text">
+                    Afișul oficial al festivalului, ilustrat cu celebra caricatură a scriitorului Ion Cănăvoiu fumând din pipă — un simbol al hazului înțelept și al libertății de creație.
+                  </p>
+                </figcaption>
+              </figure>
+
+              <!-- Foto 2: Portretul de arhivă -->
+              <figure class="festival-card">
+                <div class="festival-card-img-wrap">
+                  <img src="./assets/canavoiu/2-portret-ion-canavoiu.jpg" alt="Portretul scriitorului Ion Cănăvoiu născut în Runcu" class="festival-card-img" loading="lazy" />
+                  <span class="festival-order-tag">2 • Scriitorul</span>
+                </div>
+                <figcaption class="festival-card-caption">
+                  <span class="festival-pill">PORTRET DE ARHIVĂ (1939–1992)</span>
+                  <h4 class="festival-card-title">Ion Cănăvoiu — Fiu al Runcului</h4>
+                  <p class="festival-card-text">
+                    Portret de epocă al marelui epigramist, poet și gazetar gorjean născut în vatra satului Runcu, întemeietorul și animatorul revistei satirice „HAZ-ul”.
+                  </p>
+                </figcaption>
+              </figure>
+
+              <!-- Foto 3: Atelierul din Runcu -->
+              <figure class="festival-card">
+                <div class="festival-card-img-wrap">
+                  <img src="./assets/canavoiu/3-atelier-caricaturi-runcu.jpg" alt="Atelier de caricatură în aer liber la Runcu — Maestrul Marian Avramescu oferind caricatura unui jandarm montan" class="festival-card-img" loading="lazy" />
+                  <span class="festival-order-tag">3 • Atelier în Runcu</span>
+                </div>
+                <figcaption class="festival-card-caption">
+                  <span class="festival-pill">ATELIER ÎN DIRECT • RUNCU</span>
+                  <h4 class="festival-card-title">Caricatură pentru Jandarmeria Montană</h4>
+                  <p class="festival-card-text">
+                    Maestrul Marian Avramescu îi înmânează cu zâmbet caricatura realizată în direct unui jandarm montan, în timpul atelierelor în aer liber organizate la Runcu.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="app-institutional-footer">
@@ -302,6 +399,21 @@ export function renderHomeView(stampsData, container) {
           window.location.hash = `#/stampila/${stamp.id}/${stamp.token}`;
         }
       });
+    });
+  }
+
+  // Jump to Festival Marker on Map
+  const jumpMapBtn = container.querySelector('#btn-jump-map-festival');
+  if (jumpMapBtn) {
+    jumpMapBtn.addEventListener('click', () => {
+      playTapSound();
+      const mapViewport = container.querySelector('#osm-map-container');
+      if (mapViewport) {
+        mapViewport.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => {
+          window.dispatchEvent(new CustomEvent('focus-festival-marker'));
+        }, 500);
+      }
     });
   }
 }

@@ -207,6 +207,35 @@ export function createMiniMap(containerEl, waypoints) {
       markersGroup.addLayer(marker);
     });
 
+    // Special Cultural Beacon: Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu”
+    const festivalCoords = [45.1215, 23.1390];
+    const festivalDivIcon = L.divIcon({
+      className: 'osm-custom-div-icon osm-festival-div-icon',
+      html: `
+        <div class="osm-marker-wrap osm-festival-marker-wrap is-active" style="--marker-color: #8B5CF6">
+          <div class="osm-marker-pulse osm-festival-pulse" aria-hidden="true"></div>
+          <div class="osm-marker-core osm-festival-core" title="Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu”">
+            <span class="festival-marker-icon" aria-hidden="true">🎭</span>
+          </div>
+          <span class="osm-festival-label-pill">Festivalul Ion Cănăvoiu</span>
+        </div>
+      `,
+      iconSize: [42, 42],
+      iconAnchor: [21, 21]
+    });
+
+    const festivalMarker = L.marker(festivalCoords, {
+      icon: festivalDivIcon,
+      title: 'Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu”',
+      zIndexOffset: 120
+    });
+
+    festivalMarker.on('click', () => {
+      openFestivalSheet();
+    });
+
+    markersGroup.addLayer(festivalMarker);
+
     // Cross-linking Listener: Highlight from Passport/Desk hover
     window.addEventListener('highlight-map-waypoint', (e) => {
       const targetId = e.detail?.id;
@@ -339,6 +368,75 @@ export function createMiniMap(containerEl, waypoints) {
       });
     }
 
+    function openFestivalSheet() {
+      activeId = 'festival-canavoiu';
+      playTapSound();
+      triggerVibration(25);
+
+      sheetContent.innerHTML = `
+        <div class="sheet-header-row">
+          <span class="sheet-cat-badge" style="--cat-color: #8B5CF6">
+            <span style="font-size: 1.15rem; line-height: 1;">🎭</span>
+            <span>EVENIMENT CULTURAL • EDIȚIA XXXIII</span>
+          </span>
+          <button type="button" class="sheet-close-btn" id="sheet-close-btn" aria-label="Închide detaliile">
+            ${icon('close', 18)}
+          </button>
+        </div>
+        <div class="sheet-body-grid sheet-festival-grid">
+          <div class="sheet-festival-thumbs-strip">
+            <div class="festival-thumb-item" title="1. Afișul Festivalului Ediția XXXIII">
+              <img src="./assets/canavoiu/1-afis-festival-canavoiu.jpg" alt="Afiș Festival Ion Cănăvoiu Ediția XXXIII" class="festival-thumb-img" />
+              <span class="festival-thumb-num">1. Afiș</span>
+            </div>
+            <div class="festival-thumb-item" title="2. Portretul scriitorului Ion Cănăvoiu">
+              <img src="./assets/canavoiu/2-portret-ion-canavoiu.jpg" alt="Portret de arhivă Ion Cănăvoiu" class="festival-thumb-img" />
+              <span class="festival-thumb-num">2. Scriitor</span>
+            </div>
+            <div class="festival-thumb-item" title="3. Atelier de caricaturi în direct la Runcu">
+              <img src="./assets/canavoiu/3-atelier-caricaturi-runcu.jpg" alt="Atelier caricatură Runcu" class="festival-thumb-img" />
+              <span class="festival-thumb-num">3. Atelier Runcu</span>
+            </div>
+          </div>
+          <div class="sheet-text-col">
+            <h3 class="sheet-place-title">Festivalul Internațional de Umor și Caricatură „Ion Cănăvoiu”</h3>
+            <p class="sheet-place-desc">
+              Organizat anual la Runcu și Tg-Jiu în memoria scriitorului, poetului și epigramistului <strong>Ion Cănăvoiu</strong> (1939–1992), născut la Runcu. Evenimentul reunește peste 130 de creatori, concursuri de epigramă, grafică satirică și ateliere deschise de caricatură în aer liber la Runcu.
+            </p>
+          </div>
+        </div>
+        <div class="sheet-actions-row">
+          <button type="button" class="btn-sheet-primary" id="btn-sheet-jump-festival" style="flex: 2;">
+            ${icon('sparkles', 15)}
+            <span>Vezi Secțiunea Dedicată din Pagină</span>
+          </button>
+          <a href="#/poveste/c-personalitate-locala" class="btn-sheet-secondary">
+            ${icon('play', 15)}
+            <span>Poveste &amp; Quiz</span>
+          </a>
+        </div>
+      `;
+
+      sheet.hidden = false;
+      requestAnimationFrame(() => sheet.classList.add('is-open'));
+      sheetContent.querySelector('#sheet-close-btn')?.addEventListener('click', closeSheet);
+      sheetContent.querySelector('#btn-sheet-jump-festival')?.addEventListener('click', () => {
+        closeSheet();
+        const sec = document.querySelector('#festivalul-ion-canavoiu');
+        if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+      });
+
+      map.flyTo(festivalCoords, Math.max(map.getZoom(), 13), {
+        duration: 0.6,
+        easeLinearity: 0.25
+      });
+    }
+
+    // Listen for custom event to focus festival marker from home view
+    window.addEventListener('focus-festival-marker', () => {
+      openFestivalSheet();
+    });
+
     function closeSheet() {
       if (!activeId) return;
       activeId = null;
@@ -367,6 +465,13 @@ export function createMiniMap(containerEl, waypoints) {
             if (markersGroup.hasLayer(marker)) markersGroup.removeLayer(marker);
           }
         });
+
+        // Toggle festival marker on ALL or C
+        if (currentCategory === 'ALL' || currentCategory === 'C') {
+          if (!markersGroup.hasLayer(festivalMarker)) markersGroup.addLayer(festivalMarker);
+        } else {
+          if (markersGroup.hasLayer(festivalMarker)) markersGroup.removeLayer(festivalMarker);
+        }
       });
     });
 

@@ -4767,3 +4767,383 @@ body.presentation-mode .slot-stamp-frame svg {
   object-fit: cover;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
 }
+
+/* ==========================================================================
+   FESTIVALUL INTERNAȚIONAL DE UMOR ȘI CARICATURĂ „ION CĂNĂVOIU” SECTION
+   ========================================================================== */
+.festival-canavoiu-section {
+  position: relative;
+  margin: 3.5rem auto 2.5rem;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.festival-container {
+  background: linear-gradient(180deg, rgba(22, 34, 28, 0.85) 0%, rgba(13, 22, 18, 0.95) 100%);
+  border: 1px solid rgba(216, 162, 74, 0.35);
+  border-radius: var(--radius-booklet);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 30px rgba(139, 92, 246, 0.12);
+  padding: 2.5rem 2rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+}
+
+.festival-container::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(147, 51, 234, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.festival-header {
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto 2rem;
+}
+
+.festival-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(139, 92, 246, 0.15);
+  border: 1px solid rgba(139, 92, 246, 0.45);
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #C084FC;
+  text-transform: uppercase;
+  margin-bottom: 0.85rem;
+}
+
+.festival-badge-icon {
+  font-size: 1rem;
+}
+
+.festival-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 3.2vw, 2.3rem);
+  font-weight: 700;
+  color: var(--gold-foil-bright);
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.festival-subtitle {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.festival-story-card {
+  background: rgba(8, 14, 11, 0.6);
+  border: 1px solid rgba(245, 242, 234, 0.1);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.festival-h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: #fff6e5;
+  margin-bottom: 1rem;
+}
+
+.festival-p {
+  font-size: 0.94rem;
+  color: #d1d5db;
+  line-height: 1.7;
+  margin-bottom: 0.9rem;
+}
+
+.festival-p:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.festival-actions-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+}
+
+.btn-festival-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  background: linear-gradient(135deg, var(--gold-foil) 0%, var(--gold-foil-deep) 100%);
+  color: #120e06;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(216, 162, 74, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-festival-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(216, 162, 74, 0.5);
+}
+
+.btn-festival-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.3rem;
+  background: rgba(139, 92, 246, 0.15);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  color: #D8B4FE;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-festival-secondary:hover {
+  background: rgba(139, 92, 246, 0.25);
+  border-color: #C084FC;
+  transform: translateY(-2px);
+}
+
+.festival-gallery-block {
+  margin-top: 1rem;
+}
+
+.festival-gallery-heading {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--gold-foil);
+  text-align: center;
+  margin-bottom: 0.35rem;
+}
+
+.festival-gallery-sub {
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 1.75rem;
+}
+
+.festival-photos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.festival-card {
+  margin: 0;
+  background: rgba(8, 14, 11, 0.75);
+  border: 1px solid rgba(216, 162, 74, 0.25);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.festival-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-foil);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7);
+}
+
+.festival-card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #060c09;
+}
+
+.festival-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.festival-card:hover .festival-card-img {
+  transform: scale(1.05);
+}
+
+.festival-order-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(14, 24, 20, 0.92);
+  border: 1px solid var(--gold-foil);
+  color: var(--gold-foil-bright);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.festival-card-caption {
+  padding: 1.25rem 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.festival-pill {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #C084FC;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.festival-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: #fff6e5;
+  margin: 0 0 0.5rem;
+  line-height: 1.3;
+}
+
+.festival-card-text {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Map Festival Marker Styling */
+.osm-festival-marker-wrap {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.osm-festival-pulse {
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.45) 0%, transparent 70%);
+  animation: festivalBeaconPulse 2s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes festivalBeaconPulse {
+  0% { transform: scale(0.85); opacity: 0.8; }
+  50% { transform: scale(1.4); opacity: 0.2; }
+  100% { transform: scale(0.85); opacity: 0.8; }
+}
+
+.osm-festival-core {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7C3AED 0%, #4C1D95 100%);
+  border: 2px solid var(--gold-foil);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.8), 0 0 12px rgba(168, 85, 247, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.osm-festival-marker-wrap:hover .osm-festival-core {
+  transform: scale(1.15);
+}
+
+.festival-marker-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.osm-festival-label-pill {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  white-space: nowrap;
+  background: rgba(10, 16, 13, 0.92);
+  border: 1px solid var(--gold-foil);
+  color: var(--gold-foil-bright);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.18rem 0.55rem;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+
+/* Map Festival Bottom Sheet Drawer Thumbs */
+.sheet-festival-thumbs-strip {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.festival-thumb-item {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1.5px solid rgba(216, 162, 74, 0.4);
+  background: #000;
+  flex-shrink: 0;
+}
+
+.festival-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.festival-thumb-num {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  color: var(--gold-foil-bright);
+  text-align: center;
+  padding: 1px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .festival-photos-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .festival-container {
+    padding: 1.75rem 1.25rem;
+  }
+}
