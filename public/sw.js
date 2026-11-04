@@ -3,7 +3,7 @@
  * App-shell cache-first, stale-while-revalidate for data, cache limit on photos.
  */
 
-const CACHE_NAME = 'pasaport-runcu-v2';
+const CACHE_NAME = 'pasaport-runcu-v3';
 
 const PRECACHE_ASSETS = [
   './',
@@ -67,6 +67,22 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Network-first for navigation requests (HTML page shell)
+  if (req.mode === 'navigate') {
+    event.respondWith(
+      fetch(req)
+        .then((networkRes) => {
+          if (networkRes.status === 200) {
+            const clone = networkRes.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
+          }
+          return networkRes;
+        })
+        .catch(() => caches.match('./index.html'))
+    );
+    return;
+  }
+
   // Cache-first for scripts, styles, fonts, and images
   event.respondWith(
     caches.match(req).then((cachedRes) => {
@@ -78,10 +94,6 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
         }
         return networkRes;
-      }).catch(() => {
-        if (req.mode === 'navigate') {
-          return caches.match('./index.html');
-        }
       });
     })
   );
